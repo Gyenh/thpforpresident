@@ -147,6 +147,15 @@ Voici les stat d'envoi de mail aux adresses récupérées lors du scrapping à p
 Le site est branché sur un Google Analytics. Plus d'infos sur [Back-office](https://thpforpresident.herokuapp.com/)
 
    
+# Technos utilisées
+
+- Dotenv
+- Nokogiri
+- API Twitter
+- Mailjet
+- Capybara
+
+   
 # Les points à améliorer
 
 ## Front
