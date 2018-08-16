@@ -1,0 +1,62 @@
+.page1-background
+{
+    min-width: 102%;
+    height: 101vh;
+    margin-top: -8px;
+    margin-left: -8px;
+    filter: opacity(92%);
+}
+
+.page1-content
+{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1-content-left
+{
+    width: 95%;
+    text-align: right;
+    padding: 50px;
+    color: #f0f0f0;
+}
+
+.page1-content-right
+{
+    width: 70%;
+    min-height: 220px;
+    margin-top: 30px;
+    padding: 50px;
+    background-color: #f0f0f0;
+    color: #566573;
+}
+
+.page1-left-title
+{
+    font-size: 2.5em;
+    line-height: 1.1em;
+}
+
+.page1-left-subtitle
+{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.page1-right-title
+{
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+}
+
+.page1-right-subtitle
+{
+    font-size: 1.05em;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}

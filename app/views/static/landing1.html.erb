@@ -1,0 +1,182 @@
+<div class="container">
+    
+    <!-- Page 1 -->
+    <div class="page">
+        <img src="images/background-laptop.jpg" class="page1-background"/>
+        <div class="page-content page1-content">
+            <div class="page1-content-left">
+                <h1 class="page1-left-title">Apprenez à développer votre MVP en trois mois, et gratuitement !</h1>
+                <p class="page1-left-subtitle">The Hacking Project s'appuie sur une communauté soudée pour enseigner de manière innovante.</p>
+                <a href="https://www.thehackingproject.org" target="_blank"><button class="button">En savoir plus</button></a>
+            </div>
+            <div class="page1-content-right">
+                <p class="page1-right-title">Inscrivez vous à notre Newsletter</p>
+                <p class="page1-right-subtitle">Tenez vous informé des projets réalisés par nos éléves et des sessions à venir.</p>
+                <div class="form-email">
+                    <%= form_for(:static, url: subscribe1_path) do |f| %>
+                        <%= f.text_field :email, class:"form-email-field", placeholder:"Entrez votre e-mail" %>
+                        <%= f.submit "S'inscrire", class:"form-email-button" %>
+                    <% end %>
+                    <div class="form-message">
+                        <% flash.each do |message_type, message| %>
+                            <div class="alert alert-<%= message_type %>"><%= message %></div>
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page">
+        <div class="page2-background">
+            <div class="page-content page2-content">
+                <div class="page2-content-top">
+                    <p>The Hacking Project change les codes de l’apprentissage du code. En trois mois, nous promettons des bases solides pour développer vous même votre MVP ou coder votre projet personnel. Etudiants autonomes, communauté soudée, THP est là pour vous donner toutes vos chances.</p>
+                </div>
+                <div class="page2-content-bottom">
+                    <div class="card1">
+                        <img src="icons/student.png" class="card1-icon"/>
+                        <div class="card1-text">
+                            <p class="card1-title">500</p>
+                            <p>élèves formés</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="icons/calendar.png" class="card1-icon"/>
+                        <div class="card1-text">
+                            <p class="card1-title">1 an</p>
+                            <p>d'existance</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="icons/coding.png" class="card1-icon"/>
+                        <div class="card1-text">
+                            <p class="card1-title">5</p>
+                            <p>sessions</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img src="icons/diplom.png" class="card1-icon"/>
+                        <div class="card1-text">
+                            <p class="card1-title">64 %</p>
+                            <p>de réussite</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page">
+        <img src="images/background-group.jpg" class="page3-background"/>
+            <div class="page-content page3-content">
+                <p class="page3-content-top">La formation en trois points</p>
+                <div class="page3-content-bottom">
+                    <div class="card2">
+                        <p>Quel est le prix de la formation ?</p>
+                        <div class="card2-answer">
+                            <p>100% gratuite, la formation est accessible à tous</p>
+                        </div>
+                    </div><div class="card2">
+                        <p>J’ai déjà un projet de site, est-ce compatible avec la formation ?</p>
+                        <div class="card2-answer">
+                            <p>Nos éléves ont l’occasion e developer leur propre projet personnel durant la formation. En groupe, ils auront deux semaines pour le coder et le présenter devant un jury.</p>
+                        </div>
+                    </div><div class="card2">
+                        <p>Comment s’organise la formation ?</p>
+                        <div class="card2-answer">
+                            <p>Nos moussaillons travaillent en groupe pendant toute la formation. Il n’y a pas de professeurs, mais une communauté aidante et motivée !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page">
+        <div class="page4-background">
+            <div class="page-content page4-content">
+                <p class="page4-content-left">Les technologies enseignées</p>
+                <div class="page4-content-right">
+                    <div class="page4-content-right-item">
+                        <img src="icons/html.png" class="page4-content-right-icon"/>
+                        <div class="page4-content-right-item-text">
+                            <p class="page4-content-right-item-title">HTML & CSS</p>
+                            <p class="page4-content-right-item-subtitle">Les basiques du développement web.</p>
+                        </div>
+                    </div><div class="page4-content-right-item">
+                        <img src="icons/ruby.png" class="page4-content-right-icon"/>
+                        <div class="page4-content-right-item-text">
+                            <p class="page4-content-right-item-title">Ruby</p>
+                            <p class="page4-content-right-item-subtitle">Un langage de programmation simple et puissant</p>
+                        </div>
+                    </div><div class="page4-content-right-item">
+                        <img src="icons/rails.png" class="page4-content-right-icon"/>
+                        <div class="page4-content-right-item-text">
+                            <p class="page4-content-right-item-title">Rails</p>
+                            <p class="page4-content-right-item-subtitle">Le framework le plus cool du net !</p>
+                        </div>
+                    </div><div class="page4-content-right-item">
+                        <img src="icons/javascript.png" class="page4-content-right-icon"/>
+                        <div class="page4-content-right-item-text">
+                            <p class="page4-content-right-item-title">Javascript</p>
+                            <p class="page4-content-right-item-subtitle">React, Jquery, et autres lagages super utiles !</p>
+                        </div>
+                    </div><div class="page4-content-right-item">
+                        <img src="icons/console.png" class="page4-content-right-icon"/>
+                        <div class="page4-content-right-item-text">
+                            <p class="page4-content-right-item-title">Et bien plus encore</p>
+                            <p class="page4-content-right-item-subtitle">Maitrisez des outils comme Heroku, Github, le bash, etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 5 -->
+    <div class="page">
+        <img src="images/background-guy.jpg" class="page5-background"/>
+        <div class="page-content page5-content">
+            <div class="page5-content-top">
+                <p>Contactez nous !</p>
+            </div>
+            <div class="page5-content-bottom">
+                <div class="page5-content-bottom-item">
+                    <p class="page5-content-bottom-title">Nous sommes incubés à la Paillasse</p>
+                    <p class="page5-content-bottom-text">226, rue Saint-Denis</br>75002 Paris</br>France</p>
+                </div><div class="page5-content-bottom-item">
+                    <p class="page5-content-bottom-title">Besoin de nous appeler ?</p>
+                    <p class="page5-content-bottom-text">Charles Dacquay</br>06 95 46 60 80</p>
+                    <p class="page5-content-bottom-text">Félix Gaudé</br>06 28 01 33 40</p>
+                </div><div class="page5-content-bottom-item">
+                    <p class="page5-content-bottom-title">Envoyez-nous un message</p>
+                    <a href="mailto:bonjour@thehackingproject.org" class="page5-content-bottom-text">bonjour@thehackingproject.org</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo-box">
+        <a href="https://www.thehackingproject.org" target="_blank">
+            <img src="images/logo.png" class="logo-img"/>
+        </a>
+    </div>
+
+    <!-- Mini barre réseaux sociaux -->
+    <div class="social">
+        <a href="https://www.facebook.com/thehackingproject/?ref=br_rs" target="_blank">
+            <img src="icons/fb.png" class="social-img"/>
+        </a>
+        <a href="https://www.instagram.com/the_hacking_project/" target="_blank">
+            <img src="icons/ig.png" class="social-img"/>
+        </a>
+            <a href="https://www.linkedin.com/school/the_hacking_project/" target="_blank">
+            <img src="icons/in.png" class="social-img"/>
+        </a>
+    </div>
+</div>

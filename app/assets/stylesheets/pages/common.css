@@ -1,0 +1,28 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper
+{
+    background-color: #e2e3e5;
+}
+
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page
+{
+    position: relative;
+}
+
+.page-content
+{
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}

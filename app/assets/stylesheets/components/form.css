@@ -1,0 +1,45 @@
+.form-email
+{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.form-email-field
+{
+    width: 52%;
+    height: 35px;
+    padding-left: 20px;
+    margin-top: 2px;
+    border-radius: 50px 0 0 50px;
+    background-color: #56657318;
+    border: 0px;
+    color: #566573;
+    font-size: 0.95em;
+    outline: none;
+}
+
+.form-email-button
+{
+    width: 23%;
+    height: 37px;
+    margin-left: -5px;
+    border-radius: 0 50px 50px 0;
+    background-color: #566573;
+    border: 0px;
+    color: #f0f0f0;
+    font-size: 0.95em;
+    cursor: Pointer;
+}
+
+.form-email-button:hover
+{
+    filter: opacity(70%);
+    transition: all  0.5s ease;
+}
+
+.form-message
+{
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 7px;
+}

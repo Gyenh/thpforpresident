@@ -1,0 +1,76 @@
+.card1
+{
+    height: 190px;
+    margin: 20px;
+    padding-top: 9px;
+    border: 2px dotted #566573;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1-icon
+{
+    width: 80px;
+    height: 80px;
+}
+
+.card1-text
+{
+    text-align: center;
+    margin-top: 4%;
+    line-height: 0.3em;
+    font-size: 1.1em;
+}
+
+.card1-title
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card2
+{
+    height: 220px;
+    margin: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(209, 14%, 48%);
+    color: #e2e3e5;
+    font-size: 1.3em;
+    line-height: 1.45em;
+    cursor: default;
+}
+
+.card2:hover
+{
+    background-color: #c39365;
+    color: transparent;
+    transition: all 0.5s ease;
+}
+
+.card2:hover .card2-answer
+{
+    color: #e2e3e5;
+    transition: all 0.5s ease;
+}
+
+.card2-answer
+{
+    position: absolute;
+    width: 22%;
+    color: transparent;
+    font-size: 0.88em;
+    line-height: 1.6em;
+    cursor: default;
+}

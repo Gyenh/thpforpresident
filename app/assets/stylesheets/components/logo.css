@@ -1,0 +1,12 @@
+.logo-box
+{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+.logo-img
+{
+    width: 13%;
+    height:13%;
+}
