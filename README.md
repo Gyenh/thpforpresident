@@ -20,7 +20,7 @@ Landing Page -  Accompagnateurs PEPITE -> [Lien](https://thpforpresident.herokua
 Landing Page -  Etudiants en informatique -> [Lien](https://thpforpresident.herokuapp.com/landing2)</br>
 Landing Page -  Start-ups de Bordeaux -> [Lien](https://thpforpresident.herokuapp.com/landing3)</br>
 
-Console de commande pour les dev -> [Back-office](https://thpforpresident.herokuapp.com/)
+Commandes de l'appli rails pour les dev -> [Back-office](https://thpforpresident.herokuapp.com/)
 
 #### En local - test poussé
 
