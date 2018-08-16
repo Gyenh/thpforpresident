@@ -136,13 +136,6 @@ Pour augmenter les chances d'inscription, nous avons détaillé la Landing page 
 - Les techno (On reprend ici les techno étudiés durant la formation)
 - Contat (En cas de questions, l'utilisateurs sait où se diriger)
 
-
-# Techno utilisées
-
-- Mailchimp : Envoi de la Newsletter
-- Heroku schedule : Pour programmer les envois
-- Mailjet
-- API twitter
    
 # Statistiques
 
@@ -150,6 +143,9 @@ Capture d'ecran Mailjet.
 Voici les stat d'envoi de mail aux adresses récupérées lors du scrapping à partir de la base de donnée.
 
 ![Mail](https://github.com/Roogerr/img/blob/master/mailjet.png)
+
+Le site est branché sur un Google Analytics. Plus d'infos sur [Console](https://thpforpresident.herokuapp.com/)
+
    
 # Les points à améliorer
 
