@@ -28,10 +28,11 @@ Commandes de l'appli rails pour les dev -> [Back-office](https://thpforpresident
 2. Accéder au dossier à l'aide de la console</br>
 3. Installer les gem avec la commande : $ bundle install</br>
 4. Initialiser la base de données avec la commande : $ rails db:migrate</br>
-5. Lancer le serveur rails : $ rails server</br>
-6. Acccéder à [localhost](http://localhost:3000) sur votre navigateur</br>
-7. Depuis là, on peut lancer les différents trucs : actions de marketing, accès aux metrics, envoi de newsletter... Pour vérifier que tout fonctionne, n'oublie pas de checker la console !!
-8. Et avec ça, un petit test ? Quitter le serveur et lancer : $ rspec spec/newsletter/subscribe_newsletter_spec.rb
+5. Créer un fichier .env à la racine avec les clés d'API
+6. Lancer le serveur rails : $ rails server</br>
+7. Acccéder à [localhost](http://localhost:3000) sur votre navigateur</br>
+8. Depuis là, on peut lancer les différents trucs : actions de marketing, accès aux metrics, envoi de newsletter... Pour vérifier que tout fonctionne, n'oublie pas de checker la console !!
+9. Et avec ça, un petit test ? Quitter le serveur et lancer : $ rspec spec/newsletter/subscribe_newsletter_spec.rb
 
 ## 3 - Choix du design 
 
