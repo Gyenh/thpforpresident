@@ -20,7 +20,7 @@ Landing Page -  Accompagnateurs PEPITE -> [Lien](https://thpforpresident.herokua
 Landing Page -  Etudiants en informatique -> [Lien](https://thpforpresident.herokuapp.com/landing2)</br>
 Landing Page -  Start-ups de Bordeaux -> [Lien](https://thpforpresident.herokuapp.com/landing3)</br>
 
-Console de commande pour les dev -> [Console](https://thpforpresident.herokuapp.com/)
+Console de commande pour les dev -> [Back-office](https://thpforpresident.herokuapp.com/)
 
 #### En local - test poussé
 
@@ -30,7 +30,7 @@ Console de commande pour les dev -> [Console](https://thpforpresident.herokuapp.
 4. Initialiser la base de données avec la commande : $ rails db:migrate</br>
 5. Lancer le serveur rails : $ rails sserver</br>
 6. Acccéder à [localhost](http://localhost:3000) sur votre navigateur</br>
-7. Depuis là, on peut lancer les différents trucs : actions de marketing, accès aux metrics, envoi de newsletter...
+7. Depuis là, on peut lancer les différents trucs : actions de marketing, accès aux metrics, envoi de newsletter... Pour vérifier que tout fonctionne, n'oublie pas de checker la console !!
 8. Et avec ça, un petit test ? Lancer : $ rspec spec/newsletter/subscribe_newsletter_spec.rb
 
 ## 3 - Choix du design 
@@ -144,7 +144,7 @@ Voici les stat d'envoi de mail aux adresses récupérées lors du scrapping à p
 
 ![Mail](https://github.com/Roogerr/img/blob/master/mailjet.png)
 
-Le site est branché sur un Google Analytics. Plus d'infos sur [Console](https://thpforpresident.herokuapp.com/)
+Le site est branché sur un Google Analytics. Plus d'infos sur [Back-office](https://thpforpresident.herokuapp.com/)
 
    
 # Les points à améliorer
