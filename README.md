@@ -16,9 +16,9 @@
 
 #### En production - test rapide
 
-Landing Page -  Accompagnateurs PEPITE -> [presidentApp](https://thpforpresident.herokuapp.com/landing1)</br>
-Landing Page -  Etudiants en informatique -> [presidentApp](https://thpforpresident.herokuapp.com/landing2)</br>
-Landing Page -  Start-ups de Bordeaux -> [presidentApp](https://thpforpresident.herokuapp.com/landing3)</br>
+Landing Page -  Accompagnateurs PEPITE -> [Lien](https://thpforpresident.herokuapp.com/landing1)</br>
+Landing Page -  Etudiants en informatique -> [Lien](https://thpforpresident.herokuapp.com/landing2)</br>
+Landing Page -  Start-ups de Bordeaux -> [Lien](https://thpforpresident.herokuapp.com/landing3)</br>
 
 Console de commande pour les dev -> [Console](https://thpforpresident.herokuapp.com/)
 
