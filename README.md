@@ -24,13 +24,13 @@ Console de commande pour les dev -> [Console](https://thpforpresident.herokuapp.
 
 #### En local - test poussé
 
-1. Cloner le fichier sur votre ordinateur</br>
+1. Cloner le repo sur votre ordinateur</br>
 2. Accéder au dossier à l'aide de la console</br>
 3. Installer les gem avec la commande : $ bundle install</br>
 4. Initialiser la base de données avec la commande : $ rails db:migrate</br>
-5. Lancer le serveur rails : $ rails s</br>
+5. Lancer le serveur rails : $ rails sserver</br>
 6. Acccéder à [localhost](http://localhost:3000) sur votre navigateur</br>
-7. Depuis là, on peut lancer les différents trucs : actions de marketing, envoi de newsletter...
+7. Depuis là, on peut lancer les différents trucs : actions de marketing, accès aux metrics, envoi de newsletter...
 8. Et avec ça, un petit test ? Lancer : $ rspec spec/newsletter/subscribe_newsletter_spec.rb
 
 ## 3 - Choix du design 
